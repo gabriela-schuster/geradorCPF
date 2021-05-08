@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #a38dec;
+	background-color: #1d1d1d;
+	font-family: 'Space Mono', monospace;
+}
+::selection {
+	background-color: #a38dec;
+	color: #1d1d1d;
+}
+h1 {
+	font-size: 1.5rem;
+	color: #f3f3f3;
+	margin-bottom: 1rem;
+}
+
+.container {
+	max-width: calc(1200px - 20%);
+	margin: 1rem auto;
+	padding: 2rem;
+
+	border-radius: 10px;
+	box-shadow: 0 0 60px rgba(0, 0, 0, 0.568);
+	background-color: #1f1f1f;
+	color: #a38dec;
+	text-align: center;
+}
+.cpf-gerado {
+	display: inline-block;
+
+	border-bottom: 2px solid #a38dec;
+	font-size: 2.5rem;
+	letter-spacing: 5px;
+}
